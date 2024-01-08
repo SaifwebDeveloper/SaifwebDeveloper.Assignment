@@ -1,0 +1,28 @@
+/* Basic styling for text and layout */
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+section {
+    display: inline-table;
+    background-color: slategray;
+  width: 25%;
+  text-align: left;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+#Beef,#Sushi,#Chicken{
+    border: 3px solid black;
+    color: rgb(238, 234, 234);
+    background-color: red;
+    display: inline-block ;
+    font-family: cursive;
+}
